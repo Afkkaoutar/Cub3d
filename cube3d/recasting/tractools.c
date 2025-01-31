@@ -14,28 +14,16 @@
 
 int	ft_strlen2d(char **str)
 {
-	int i;
+	int	i;
 
 	i = 0;
-	while(str[i] != NULL)
+	while (str[i] != NULL)
 		i++;
-	return(i);
-}
-
-int handle_keys(int keycode, t_mlx *mlx)
-{
-	if (keycode == 53)
-	{
-		mlx_destroy_window(mlx->mlx, mlx->win);
-		exit(0);
-	}
-	return 0;
-
+	return (i);
 }
 
 int	close_wind(t_mlx *mlx)
 {
-	
 	mlx_destroy_window(mlx->mlx, mlx->win);
 	exit(0);
 	return (0);

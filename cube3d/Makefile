@@ -15,9 +15,16 @@ SRCS = main.c \
 		get_next_line.c \
 		get_next_line_utils.c \
 		parse_map.c \
-    	tracing.c \
-		tractools.c \
-		pov.c \
+   		recasting/tracing.c \
+		recasting/tractools.c \
+		recasting/recastinit.c \
+		recasting/keys_control.c \
+		recasting/draw.c \
+		recasting/cast.c \
+		recasting/cast2.c \
+		recasting/cast3.c \
+		recasting/walls.c \
+
 
 OBJS = $(SRCS:.c=.o)
 
@@ -33,7 +40,7 @@ $(NAME): $(OBJS)
 	$(CC) $(FLAGS) $(OBJS) -lmlx -framework OpenGL -framework AppKit -o $(NAME)
 
 %.o: %.c cube3d.h 
-	$(CC) $(FLAGS) -c $< -o $@
+	$(CC) $(FLAGS) -I. -c $< -o $@
 
 clean:
 	rm -f $(OBJS)
