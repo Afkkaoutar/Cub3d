@@ -45,3 +45,15 @@ La recherche s'arrête lorsque les rayons ne traversent plus de portails connect
 
 Cub3D est un excellent terrain d'expérimentation pour comprendre le raycasting et son utilisation dans les jeux vidéo.  
 En optimisant les calculs et en appliquant des techniques avancées comme l'**arbre BSP** et le **Z-ordering**, il est possible d'obtenir un rendu fluide et efficace même sur des machines aux ressources limitées.
+
+
+## Aperçu du projet
+
+### Capture 1
+![Capture 1](images/Cub3dpic.png)
+
+### Capture 2
+![Capture 2](images/Cub3dpic2.png)
+
+### Capture 3
+![Capture 3](images/Cub3dpic3.png)
