@@ -57,3 +57,9 @@ En optimisant les calculs et en appliquant des techniques avancées comme l'**ar
 
 ### Capture 3
 ![Capture 3](images/Cub3dpic3.png)
+
+## 📌 À propos du projet
+
+Ce projet a été réalisé par **deux personnes** et séparé en **deux parties** principales :
+- 🎯 **Raycasting** : traitement et rendu graphique en pseudo-3D à partir de rayons
+- 🧱 **Parcing** : lecture et validation de la carte et des ressources
